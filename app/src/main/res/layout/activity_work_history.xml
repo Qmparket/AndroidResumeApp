@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.FitWindowsLinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".WorkHistoryActivity" android:orientation="vertical">
+
+    <TextView
+            android:text="You made it"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" tools:layout_editor_absoluteY="244dp"
+            tools:layout_editor_absoluteX="155dp" android:id="@+id/textView2" android:textAlignment="center"
+            android:textSize="24sp" android:layout_marginBottom="20dp" android:layout_marginTop="20dp"/>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:id="@+id/textView3" android:layout_weight="1"
+                    android:text="OS е мобилна операционна система на компанията Apple Inc. Разработена първоначално за iPhone, тя се използва и в мобилните устройства iPod Touch, iPad и Apple TV на Apple inc. Към 1 септември 2010 г. в онлайн магазина App Store на Apple има повече от 500 000 приложения за iOS.[1] Apple не позволява работа на iOS с хардуер на трети страни. Това е възможно само с „jailbreaking“. iOS е втората по популярност мобилна операционна система в света след Android.  Потребителският интерфейс на iOS е базиран на концепцията за директна манипулация, използваща мулти-тъч движения. Контролните елементи на интерфейса се състоят от плъзгачи, ключове и бутони. Предоставен е „течен“ интерфейс (fluid interface), който реагира веднага на действията (input-a) на потребителя. Взаимодействието с операционната система включва движения на пръстите като плъзгане, потупване, притискане, щипване, отщипване и др. Вградени акселерометри се използват от някои приложения, за да реагират при поклащане на устройството (един от честите резултати при такова действие е отмяна на зададената команда) или завъртането му в три измерения (един от често срещаните резултати е превключването от портретен към пейзажен режим на екрана).OS е мобилна операционна система на компанията Apple Inc. Разработена първоначално за iPhone, тя се използва и в мобилните устройства iPod Touch, iPad и Apple TV на Apple inc. Към 1 септември 2010 г. в онлайн магазина App Store на Apple има повече от 500 000 приложения за iOS.[1] Apple не позволява работа на iOS с хардуер на трети страни. Това е възможно само с „jailbreaking“. iOS е втората по популярност мобилна операционна система в света след Android.  Потребителският интерфейс на iOS е базиран на концепцията за директна манипулация, използваща мулти-тъч движения. Контролните елементи на интерфейса се състоят от плъзгачи, ключове и бутони. Предоставен е „течен“ интерфейс (fluid interface), който реагира веднага на действията (input-a) на потребителя. Взаимодействието с операционната система включва движения на пръстите като плъзгане, потупване, притискане, щипване, отщипване и др. Вградени акселерометри се използват от някои приложения, за да реагират при поклащане на устройството (един от честите резултати при такова действие е отмяна на зададената команда) или завъртането му в три измерения (един от често срещаните резултати е превключването от портретен към пейзажен режим на екрана)."/>
+        </LinearLayout>
+    </ScrollView>
+</android.support.v7.widget.FitWindowsLinearLayout>
